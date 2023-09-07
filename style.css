@@ -79,6 +79,9 @@
     box-shadow: inset 0px 1px 0px #ef0b0b;
     margin-right: 10px;
 }
+#SolvePuzzle{
+    display: none;
+}
 
 .box1{
     background-color: #f39c06;

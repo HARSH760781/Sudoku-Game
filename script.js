@@ -32,7 +32,7 @@ GetPuzzle.onclick = function () {
   xhrRequest.open("get", "https://sugoku.onrender.com/board?difficulty=easy");
   //we can change the difficulty of the puzzle the allowed values of difficulty are easy, medium, hard and random
   xhrRequest.send();
-  SolvePuzzle.removeAttribute("disabled");
+  SolvePuzzle.style.display = "block";
 };
 
 SolvePuzzle.onclick = () => {
